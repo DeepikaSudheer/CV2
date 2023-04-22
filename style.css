@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+element.style {
+min-height: 100vh;
+}
+body {
+background-image: url(images/Bigben.JPG)!important;
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-attachment: fixed;
+margin: 0;
+text-align: center;
+background-color: #d1f2f8;
+color: #40514e;
+}
+h1 {
+font-size: 5rem;
+color: #e62994;
+text-shadow: 1px 1px #66BFBF;
+font-family: 'Sacramento', cursive !important;
+}
+h2 {
+font-family: 'Montserrat', sans-serif;
+color: #e62994;
+text-shadow: 0.5px 0, 5px #ff0000;
+margin-left: auto;
+font-size: 1.5rem;
+font-weight: normal;
+line-height: 2rem;
+}
+h3 {
+font-family: 'Montserrat', sans-serif;
+color: #e62994;
+}
+hr {
+border-style: dotted none none;
+border-color: grey;
+border-width: 5px;
+height: 0;
+width: 5%;
+}
+/* top container style starts */
+.intro {
+padding-right: 3rem !important;
+padding-bottom: 3rem !important;
+padding-top: 3rem !important;
+margin-bottom: 3rem !important;
+}
+.rounded-circle {
+border-radius: 50% !important;
+max-width: 100%;
+height: auto;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+align-items: center !important;
+}
+.container  {
+background-color: #ffffff !important;
+width: 100%;
+height:250px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+background: url("https://www.adsmurai.com/hubfs/2022_Blog_Header_Mundo%20sin%20cookies.png") no-repeat center;
+background-size: cover;
+}
+.top-container {
+background-color: #ffffff;
+height: auto;
+/* margin: 0 auto 6.5rem auto; */
+padding: 20px;
+}
+.top-cloud {
+position: relative;
+left: 300px;
+}
+.bottom-cloud {
+position: absolute;
+left: 300px;
+}
+.top-pic {
+border-radius: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+/* top container style ends */
+
+/* middle container style starts */
+.middle-container {
+background-color: #d9ccd1fa;
+font-family: 'Montserrat', sans-serif;
+}
+.email_marketing {
+border-radius: 100%;
+width: 30%;
+opacity: 0.5;
+float: left;
+margin-right: 30px;
+}
+.web {
+border-radius: 100%;
+float: right;
+width: 30%;
+opacity: 0.5;
+margin-left: 30px;
+}
+.profile {
+margin: auto 400px 50px 400px;
+line-height: 2;
+}
+.skills {
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.skill-row {
+width: 50%;
+margin: 70px auto 70px auto;
+text-align: left;
+line-height: 1.5;
+}
+/* middle container style ends */
+
+/* bottom container style starts */
+.bottom-container {
+background-color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+text-align: center;
+padding: 10px;
+width: auto;
+height: auto;
+}
+.copyright {
+padding-top: 20px;
+margin-bottom: 0;
+font-size: 10px;
+}
+.footer-link {
+margin-left: 30px;
+margin-right: 30px;
+padding-left: 20px;
+padding-right: 20px;
+text-decoration: none;
+}
+.contact-me {
+padding-bottom: 6.5rem;
+margin: 2.5rem 450px 4.5rem 450px;
+line-height: 2;
+}
+.btn1 {
+margin-top: 4.5rem;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.2rem;
+color: #ffffff;
+padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+border-radius: 60px;
+border-width: 0;
+background: rgb(238, 174, 202);
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(126 114 159) 100%);
+box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
+cursor: pointer;
+}
+/* bottom container style ends */
