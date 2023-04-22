@@ -7,7 +7,7 @@ element.style {
 min-height: 100vh;
 }
 body {
-background-image: url(images/Bigben.JPG)!important;
+background-image: url(images/Bigben.jpg)!important;
 background-repeat: no-repeat;
 background-size: 100% auto;
 background-attachment: fixed;
